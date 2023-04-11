@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 150%;
+    max-width: 1080px;
+}
+
+h2 {
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+h3 {
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    ;
+    text-align: justify;
+    margin-bottom: 1vh;
+}
+
+div#link {
+    margin-bottom: 2vh;
+}
+
+h3#email {
+    color: blue;
+    transition: all 0.5s;
+}
+
+h3#email:hover {
+    cursor: pointer;
+    color: green;
+}
